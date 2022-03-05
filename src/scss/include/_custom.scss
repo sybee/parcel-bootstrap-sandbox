@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: yellow;
+  height: 80px;
+}
+
+main {
+  background-color: grey;
+  flex-grow: 1;
+  width: 100%;
+}
+
+footer {
+  background-color: pink;
+  height: 200px;
+}
